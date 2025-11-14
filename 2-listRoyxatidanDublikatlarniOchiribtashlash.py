@@ -1,0 +1,6 @@
+list1 = [[10, 20], [40], [30, 56, 25], [10, 20], [33], [40]]
+new_list =[]
+for sublist in list1:
+    if sublist not in new_list:
+        new_list.append(sublist)
+print(new_list)
